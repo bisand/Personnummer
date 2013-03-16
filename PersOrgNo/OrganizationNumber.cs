@@ -9,8 +9,6 @@
 
         private static bool CheckOrganisationNumber(string organisationNumber)
         {
-            var result = false;
-
             if (string.IsNullOrWhiteSpace(organisationNumber))
                 return false;
 
@@ -47,11 +45,11 @@
 
                 if ((k1 == kn1) || (kn1 > 10))
                 {
-                    result = true;
+                    return true;
                 }
             }
 
-            return result;
+            return false;
         }
     }
 }

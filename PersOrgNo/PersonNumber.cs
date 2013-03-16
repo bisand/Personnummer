@@ -15,8 +15,6 @@ namespace PersOrgNo
 
         private static bool CheckPersonNumber(string persNo)
         {
-            var result = false;
-
             if (string.IsNullOrWhiteSpace(persNo))
                 return false;
 
@@ -58,11 +56,11 @@ namespace PersOrgNo
 
                 if (((k1 == kn1) || (kn1 > 10)) && ((k2 == kn2) || (kn2 > 10)))
                 {
-                    result = true;
+                    return true;
                 }
             }
 
-            return result;
+            return false;
         }
     }
 }
