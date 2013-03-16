@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Personnummer", "Personnummer\Personnummer.csproj", "{2F9A0C04-7BB2-4A90-B1C4-FE3471D1EB78}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{2F9A0C04-7BB2-4A90-B1C4-FE3471D1EB78}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersOrgNo", "PersOrgNo\PersOrgNo.csproj", "{CA17491D-7C00-4055-B180-328BFA248950}"
 EndProject
